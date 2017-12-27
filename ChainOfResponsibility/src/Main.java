@@ -13,7 +13,7 @@ public class Main{
 		filterManager.addFilter(new FilterTotal());
 		
 		// process the order
-		order = filterManager.process(order);
+		filterManager.process(order);
 		
 		System.out.print(order);
 	}

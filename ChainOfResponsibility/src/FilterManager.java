@@ -12,14 +12,13 @@ public class FilterManager{
 		this.filters.add(filter);
 	}
 	
-	public Order process(Order order){
+	public void process(Order order){
 		
 		for(Filter filter : this.filters){
 			
-			order = filter.filter(order);
+			filter.filter(order);
 		
 		}
-		
-		return order;
+
 	}
 }

@@ -1,6 +1,6 @@
 public class FilterTotal implements Filter{
 	
-	public Order filter(Order order){
+	public void filter(Order order){
 		
 		double total = 0;
 		
@@ -11,8 +11,7 @@ public class FilterTotal implements Filter{
 		OrderTotal orderTotal = new OrderTotal("total", total);
 		
 		order.addTotal(orderTotal);
-		
-		return order;
+
 	}
 	
 }
