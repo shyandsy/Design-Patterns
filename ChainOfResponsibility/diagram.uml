@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Filter</OriginalElement>
+  <nodes>
+    <node x="11.06756756756755" y="-71.14864864864865">Order</node>
+    <node x="361.2567567567569" y="371.21621621621614">Filter</node>
+    <node x="545.8378378378379" y="576.6621621621621">FilterCredit</node>
+    <node x="351.7567567567568" y="-41.891891891891945">Product</node>
+    <node x="728.8378378378379" y="576.6621621621621">FilterShippingFee</node>
+    <node x="362.8378378378379" y="576.6621621621621">FilterTax</node>
+    <node x="-278.2702702702702" y="312.8648648648649">OrderTotal</node>
+    <node x="959.3108108108108" y="268.59459459459447">Main</node>
+    <node x="179.83783783783792" y="576.6621621621621">FilterTotal</node>
+    <node x="-3.162162162162076" y="576.6621621621621">FilterSubTotal</node>
+    <node x="316.2162162162165" y="190.52702702702706">FilterManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="FilterSubTotal" target="OrderTotal">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="FilterSubTotal" target="Filter">
+      <point x="0.0" y="-29.5" />
+      <point x="78.33783783783792" y="546.6621621621621" />
+      <point x="379.13783783783794" y="546.6621621621621" />
+      <point x="-65.19999999999999" y="29.5" />
+    </edge>
+    <edge source="Main" target="FilterShippingFee">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="FilterTotal" target="OrderTotal">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Order" target="OrderTotal">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="Product">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="FilterTax" target="Filter">
+      <point x="0.0" y="-29.5" />
+      <point x="0.0" y="29.5" />
+    </edge>
+    <edge source="FilterCredit" target="Filter">
+      <point x="0.0" y="-29.5" />
+      <point x="627.3378378378379" y="556.6621621621621" />
+      <point x="476.9378378378379" y="556.6621621621621" />
+      <point x="32.599999999999966" y="29.5" />
+    </edge>
+    <edge source="Main" target="FilterCredit">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="FilterShippingFee" target="Filter">
+      <point x="0.0" y="-29.5" />
+      <point x="810.3378378378379" y="546.6621621621621" />
+      <point x="509.53783783783797" y="546.6621621621621" />
+      <point x="65.20000000000005" y="29.5" />
+    </edge>
+    <edge source="FilterTax" target="OrderTotal">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="FilterManager" target="Filter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Order" target="Product">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="Order">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="FilterCredit" target="OrderTotal">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="FilterTax">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="FilterTotal">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="FilterShippingFee" target="OrderTotal">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Main" target="FilterManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="FilterTotal" target="Filter">
+      <point x="0.0" y="-29.5" />
+      <point x="261.3378378378379" y="556.6621621621621" />
+      <point x="411.7378378378379" y="556.6621621621621" />
+      <point x="-32.60000000000002" y="29.5" />
+    </edge>
+    <edge source="Main" target="FilterSubTotal">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0324786324786324" x="447.5" y="337.5" />
+  <SelectedNodes>
+    <node>Order</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
